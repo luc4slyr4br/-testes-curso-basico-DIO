@@ -1,3 +1,5 @@
+package tiposDeVariaveis;
+
 public class TiposDeVariaveis {
     void main() {
         System.out.println(nomeCompleto("Lucas", "Lyra" ));
