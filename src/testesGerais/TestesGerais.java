@@ -1,8 +1,8 @@
 package testesGerais;
 
-public class testesGerais {
+public class TestesGerais {
     static void main() {
-        
+
     }
 
     public double calcularDividaExponencial(    ){
@@ -15,4 +15,6 @@ public class testesGerais {
         }
         return valorMontante;
     }
+
+
 }
