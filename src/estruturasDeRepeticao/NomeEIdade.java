@@ -12,7 +12,7 @@ public class NomeEIdade {
         Scanner scanner = new Scanner(System.in);
 
         String nome;
-        int idade;
+        int idade = 0;
 
         while (true){
             System.out.println("Informe o nome do aluno");
