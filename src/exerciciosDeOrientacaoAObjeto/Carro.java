@@ -2,6 +2,9 @@ package exerciciosDeOrientacaoAObjeto;
 /*
 Defina um metodo para calcular o valor total para encher o tanque. Este deve receber como parâmetro, o valor
 da gasolina. Faça também duas sobrecargas para o construtor.
+
+Crie objetos da classe "Carro". Use os métodos get/set, quando aplicáveis, para definir os valores dos atributos
+e exibir estes valores "get". Passe também uma mensagem para o cáculo do total para encher o tanque.
  */
 
 public class Carro {
@@ -10,7 +13,6 @@ public class Carro {
     int capacidadeTanque;
 
     Carro(){
-
     }
 
     Carro(String cor, String modelo, int capacidadeTanque){
@@ -40,8 +42,7 @@ public class Carro {
         return capacidadeTanque;
     }
 
-
-    public double calcularValorParaEncherTanque (int valorDoLitroDeGasolina){
+    public double calcularValorParaEncherTanque (double valorDoLitroDeGasolina){
         return capacidadeTanque * valorDoLitroDeGasolina;
     }
 }
