@@ -1,0 +1,4 @@
+package exerciciosEstruturaDeRepeticaoMetodosEHeranca.exerciciosDeHerancaDePolimorfismoESobrescrita;
+
+public class Faxineiro extends Funcionario{
+}

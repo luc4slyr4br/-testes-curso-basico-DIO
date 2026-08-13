@@ -1,0 +1,5 @@
+package exerciciosEstruturaDeRepeticaoMetodosEHeranca.exerciciosDeHerancaDePolimorfismoESobrescrita;
+
+public class Gerente extends Funcionario{
+
+}
